@@ -39,7 +39,6 @@ Paragraph default: 1.6
 #767676 (lightest grey allowed on #fff)
 #6f6f6f (lightest grey allowed on #fdf2e9)
 #555
-#333
 
 --- 05 SHADOWS
 
@@ -62,9 +61,31 @@ Medium: 11px
   box-sizing: border-box;
 }
 
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.265 = 62.5% */
+  /* Percentage of user browser font-size */
+
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #1a1a1a;
+}
+
+.test {
+  /* max-width: 1000px; */
+  /* max-width: 1000px; */
+
+  background-color: red;
+  padding: 100px;
+
+  max-width: 50rem;
+  color: white;
+  padding: 4rem;
+  font-size: 2rem;
+  /* 1 rem = 16px --> 500 rem = 800px */
 }
