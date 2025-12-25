@@ -138,6 +138,25 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--4-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* -------------------------*/
 /* -----Header Componennt---*/
 /* -------------------------*/
@@ -260,4 +279,13 @@ body {
 .delivered-text span {
   color: #b8651b;
   font-weight: 700;
+}
+
+/* -------------------------*/
+/* -------How Componennt----*/
+/* -------------------------*/
+
+.section-how {
+  padding: 9.6rem 0;
+  background-color: red;
 }
