@@ -472,3 +472,35 @@ ion-icon {
   font-size: 1.8rem;
   line-height: 1.8;
 }
+
+/* -------------------------*/
+/* -------CTA Componennt----*/
+/* -------------------------*/
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+
+  height: 50rem;
+}
+
+.cta-img-box {
+}
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 150, 76, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
