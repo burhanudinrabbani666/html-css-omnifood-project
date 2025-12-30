@@ -215,6 +215,24 @@ body {
   align-items: center;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list ion-icon {
+  font-size: 3rem;
+}
+
 strong {
   font-weight: 500;
 }
