@@ -321,3 +321,22 @@ ion-icon {
   text-align: center;
   font-size: 1.8rem;
 }
+
+/* -------------------------*/
+/* Testimonials Componennt----*/
+/* -------------------------*/
+
+.section-testimonials {
+  padding: 9.6rem 0;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+}
