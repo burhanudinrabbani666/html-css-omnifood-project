@@ -562,3 +562,10 @@ ion-icon {
   outline: none;
   box-shadow: 0 0 0 0.8rem hsla(28, 80%, 90%, 0.5);
 }
+
+/* -------------------------*/
+/* ----footer Componennt----*/
+/* -------------------------*/
+.footer {
+  padding: 9.6rem 0;
+}
