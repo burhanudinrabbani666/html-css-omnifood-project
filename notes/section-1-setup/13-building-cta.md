@@ -27,4 +27,16 @@ using complete input field with label
 </div>
 ```
 
+formating outline when focus
+
+```css
+.cta *:focus {
+  /* outline: 4px dotted #eb984e;
+  outline-offset: 4px ; */
+
+  outline: none;
+  box-shadow: 0 0 0 0.8rem hsla(28, 80%, 90%, 0.5);
+}
+```
+
 [Next: Building Footer](./14-building-footer.md)
