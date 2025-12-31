@@ -1,6 +1,6 @@
 ## Building CTA
 
-buat div nya tetap terbaca sebagai imag dengan role
+make the div still read as an image with a role
 
 ```html
 <div class="cta-img-box" role="img" aria-label="Women Enjoying Food"></div>
@@ -17,3 +17,14 @@ buat div nya tetap terbaca sebagai imag dengan role
   background-position: center;
 }
 ```
+
+using complete input field with label
+
+```html
+<div>
+  <label for="full-name">Full name</label>
+  <input id="full-name" type="text" placeholder="Your name..." required />
+</div>
+```
+
+[Next: Building Footer](./14-building-footer.md)
