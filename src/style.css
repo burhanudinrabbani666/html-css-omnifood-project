@@ -309,9 +309,9 @@ ion-icon {
 /* -------------------------*/
 
 .section-testimonials {
+  grid-template-columns: 5.5fr 4.5fr;
   background-color: #fae5d3;
   display: grid;
-  grid-template-columns: 5.5fr 4.5fr;
   align-items: center;
 }
 
