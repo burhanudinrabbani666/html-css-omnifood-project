@@ -15,3 +15,4 @@ This repository is to record my learnings, hoping to help you understand the bas
 - SEO HTML5
 - Accessibility HTML5
 - Reusable Modern CSS layout: Flexbox and Grid
+- Responsive design with rem / em and media query
