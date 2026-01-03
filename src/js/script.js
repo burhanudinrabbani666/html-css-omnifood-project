@@ -12,7 +12,6 @@ menuEl.addEventListener("click", () => {
 });
 
 // Implement smooth scrolling
-
 const allLinks = document.querySelectorAll("a:link");
 
 allLinks.forEach((link) => {
@@ -36,4 +35,24 @@ allLinks.forEach((link) => {
   });
 });
 
-// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
+// Stickt navigation
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+
+    if (ent.isIntersecting === false)
+      document.querySelector("body").classList.add("sticky");
+
+    if (ent.isIntersecting === true)
+      document.querySelector("body").classList.remove("sticky");
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: `-80px`,
+  }
+);
+obs.observe(sectionHeroEl);
