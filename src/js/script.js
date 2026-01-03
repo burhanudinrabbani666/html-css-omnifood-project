@@ -10,3 +10,30 @@ const headerEl = document.querySelector(".header");
 menuEl.addEventListener("click", () => {
   headerEl.classList.toggle("nav-open");
 });
+
+// Implement smooth scrolling
+
+const allLinks = document.querySelectorAll("a:link");
+
+allLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    const href = link.getAttribute("href");
+    // console.log(href);
+
+    // Scrool back
+    href === "#" && window.scrollTo({ top: 0, behavior: "smooth" });
+
+    // scroll to another link
+    if (href !== "#" && href.startsWith("#")) {
+      const sectionEl = document.querySelector(href);
+      sectionEl.scrollIntoView({ behavior: "smooth" });
+    }
+
+    // close navigation
+    if (link.classList.contains("main-nav-link"))
+      headerEl.classList.toggle("nav-open");
+  });
+});
+
+// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
