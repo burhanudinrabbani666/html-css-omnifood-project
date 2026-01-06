@@ -1,4 +1,22 @@
-![omnifood logo](./img/omnifood-logo.png)
+<p align="center">
+  <img src="./img/favicon-512.png" alt="Omnifood Logo" width="100px">
+</p>
+
+<p align="center">
+  <img 
+    src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" 
+    alt="HTML5"
+  />
+  <img 
+    src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" 
+    alt="CSS3"
+  />
+  <img 
+    src="https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white" 
+    alt="UDEMY"
+  />
+
+</p>
 
 # OMNIFOOD: Udemy Project
 
@@ -6,7 +24,7 @@ We are a technology company first, but with a major focus on consumer well-being
 
 ## Information
 
-This repository is to record my learnings, hoping to help you understand the basics of HTML5 and Modern CSS, especially in SEO, Accessibility, and Modern CSS Layout. semua code yang ada disini adalah materi belajar dari kursus html dan css yang saya ambil di udemy yang di buat oleh [Jonas Schmedtmann](https://github.com/jonasschmedtmann).
+This repository is to record my learnings, hoping to help you understand the basics of HTML5 and Modern CSS, especially in SEO, Accessibility, and Modern CSS Layout. All the code here is learning material from the HTML and CSS course I took on Udemy which was created by [Jonas Schmedtmann](https://github.com/jonasschmedtmann).
 
 - [Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?couponCode=KEEPLEARNING)
 
@@ -16,3 +34,11 @@ This repository is to record my learnings, hoping to help you understand the bas
 - Accessibility HTML5
 - Reusable Modern CSS layout: Flexbox and Grid
 - Responsive design with rem / em and media query
+
+### Screenshot of website
+
+<img src="./img/omnifood-website.png" alt="Omnifood website" >
+
+## Thanks 🤝
+
+This repository is purely intended as a learning template and a place to store educational materials. It does not claim ownership of the project, design, or any related assets.
